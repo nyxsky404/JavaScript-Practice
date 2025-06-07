@@ -1,33 +1,67 @@
-Js Operators
-Time Limit: 2, Memory Limit: 128000
-Given an integer num, print an answer where:
-If num is divisible by 3 and 5, answer = "FizzBuzz".
-If num is divisible by 3, answer = "Fizz",
-If num is divisible by 5, answer = "Buzz".
-If none of the above conditions are true, answer = num 
+## ⚙️ JS Operators - FizzBuzz
 
-Note: The num variable is already declared.
-Input
-num: an integer
-Output
-The code should print "FizzBuzz", "Fizz", "Buzz" or the input (number) according to the given conditions on the console
-Example
-Example 1:
+**Time Limit:** 2
+**Memory Limit:** 128000
 
-Input:
+---
+
+### 📝 Problem Statement
+
+Given an integer `num`, print an answer where:
+
+* If `num` is divisible by both 3 and 5, print `"FizzBuzz"`.
+* If `num` is divisible by 3, print `"Fizz"`.
+* If `num` is divisible by 5, print `"Buzz"`.
+* If none of the above conditions are true, print the number itself.
+
+> **Note:** The `num` variable is already declared.
+
+---
+
+### 📅 Input
+
+An integer `num`
+
+---
+
+### 📄 Output
+
+The program should print `"FizzBuzz"`, `"Fizz"`, `"Buzz"`, or the input number based on the conditions.
+
+---
+
+### ✅ Examples
+
+**Example 1:**
+
+**Input:**
+
+```
 30
+```
 
-Output:
+**Output:**
+
+```
 FizzBuzz
+```
 
-Explanation: 30 is divisible by 3 and 5, so output would be FizzBuzz
+**Explanation:** 30 is divisible by both 3 and 5.
 
-Example 2:
+---
 
-Input:
+**Example 2:**
+
+**Input:**
+
+```
 13
+```
 
-Output:
+**Output:**
+
+```
 13
+```
 
-Explanation: 13 is not divisible by 3 and 5, so it fails all the initial 3 conditions. Output would be 13.
+**Explanation:** 13 is not divisible by 3 or 5, so the output is the number itself.
