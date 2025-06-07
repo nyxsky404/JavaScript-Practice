@@ -1,3 +1,4 @@
+```plaintext
 Atlantis
 Time Limit: 2, Memory Limit: 128000
 We have a key as follows
@@ -12,12 +13,13 @@ Example
 Assign the values to each variable such that when concatenated, they form the string "ATLANTIS".
 Example
 
-v1 = 'A'
-v2 = 'T'
+v1 = 'T'
+v2 = 'A'
 v3 = 'L'
-v4 = 'A'
-v5 = 'N'
+v4 = 'N'
+v5 = 'I'
 v6 = 'S'
 Thus, the sequence will become:
-"L" + "T" + "A" + "L" + "N" + "T" + "A" + "S" = "LTANLNTA"
+"L" + "A" + "N" + "L" + "I" + "A" + "T" + "S" = "LANLIATS"
 which is not equal to the required string.
+```
